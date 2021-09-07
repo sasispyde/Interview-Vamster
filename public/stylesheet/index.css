@@ -1,0 +1,93 @@
+body{
+	margin: 10px;
+	padding: 0;
+}
+
+.form-control:focus, .form-select:focus, .btn:focus {
+	outline : none;
+    box-shadow: none;
+}
+
+.jumbotron {
+	padding: 50px 0px;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	background: black;
+}
+
+hr {
+	background: tomato;
+}
+
+.heading h4 {
+	text-align: center;
+}
+
+.jumbotron h1 {
+	padding: 10px;
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+
+.card-container {
+	gap : 10px;
+	margin-bottom: 10px;
+}
+
+.cards {
+	min-height: 150px;
+	max-height: 150px;
+	border: 1px solid #ddd;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cards h6{
+	padding: 10px 0px;
+}
+
+table {
+	text-align: center;
+}
+
+.spinner-center {
+	justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#table-spinner-container {
+	min-width: 100%;
+	min-height: 350px;
+	border: 1px solid #eee;
+	background: #eee;
+}
+
+div.table-responsive table {
+	min-height: 350px;
+}
+
+div.table-responsive .row {
+	min-height: 350px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 5px;
+}
+
+.button-container input:nth-child(1) {
+	margin-left: auto;
+}
+
+.count {
+	display: none;
+}
+
+
